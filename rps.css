@@ -1,0 +1,39 @@
+.header{
+    margin: auto;
+    width: fit-content;
+    margin-top: 40px;
+    font-family: monospace;
+    color: rgb(175, 45, 45);
+    font-size: 50px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: white;
+    border-style: unset;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: firebrick;
+}
+
+.scores{
+    padding: 5px;
+    float: right;
+    background-color: darkred;
+    color: white;
+    border-radius: 5px;
+}
+
+.selector{
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: wheat;
+    text-align: center;
+}

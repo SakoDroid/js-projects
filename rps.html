@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <title>Rock paper scissor</title>
+        <script type="text/javascript" src="rps.js"></script>
+        <link rel="stylesheet" href="rps.css"/>
+    </head>
+    <body style="background-image: url(1530701878-372923-blog-05.png);">
+        <div>
+            <h1 class="header">Rock Paper Scissors!</h1>
+            <div class="scores">
+                <label for="usrs">You : </label>
+                <span id="usrs">0</span>
+                |
+                <label for="bots">Bot : </label>
+                <span id="bots">0</span>
+            </div>
+        </div>
+        <div id="sh" class="selector">
+            <button value="1" onclick="check(this.value)">ROCK</button>
+            <button value="2" onclick="check(this.value)">PAPER</button>
+            <button value="3" onclick="check(this.value)">SCISSOR</button>
+        </div>
+    </body>
+</html>
